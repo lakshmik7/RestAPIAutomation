@@ -51,7 +51,7 @@ public class POSTAPITest extends TestBase{
 		Users users=new Users("morpheus","leader"); //expected user object
 		
 		//java object to json file conversion
-		mapper.writeValue(new File("C:\\Users\\sharanya allani\\Desktop\\Lakshmi\\restapi\\src\\main\\java\\com\\qa\\data\\users.json"), users); //users data is getting stored in json file at that location
+		mapper.writeValue(new File("C:\\abcd\\restapi\\src\\main\\java\\com\\qa\\data\\users.json"), users); //users data is getting stored in json file at that location
 		
 		//covert jsonobject to json string
 		String usersJsonString = mapper.writeValueAsString(users);
